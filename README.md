@@ -8,6 +8,9 @@ This script is designed to work with the Mendix Platform SDK and performs the fo
 - Deletes any excluded documents in the model
 - Commits the changes to the repository with a specified commit message
 
+### Prerequisites
+- Make sure you have your Mendix Personal Access Token stored as an environment variable (MENIDX_TOKEN): https://docs.mendix.com/apidocs-mxsdk/mxsdk/set-up-your-pat/ 
+
 To run the script, please follow these steps:
 
 1. Make sure you have Node.js installed on your machine.
